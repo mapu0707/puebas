@@ -38,6 +38,6 @@ public class CalculadoraTest {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             calc.dividir(6, 0);
         });
-        assertEquals("No se puede dividir por 0 ", exception.getMessage());
+        assertEquals("No se puede dividir por cero", exception.getMessage());
     }
 }
